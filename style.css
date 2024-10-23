@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.outbox{
+    border: solid 1px;
+    height: 140px;
+    display: flex;
+}
+#in1,#in2,#in4{
+    border: solid 1px;
+    height: 140px;
+}
+#in1{
+    width: 140px;
+}
+#in2{
+    width: 880px;
+}
+#in3{
+    width: 323 px;
+}
+#clgname{
+font-size: 22 px;
+columns: red
+;}
+#name1{
+    font-size: 22 px;
+    color: navy;
+}
+#scrolltext{
+    font-size: 20px;
+    color: brown;
+}
+#navbox{
+    border: solid 1px;
+    height: 50px;
+}
+ul li{
+    border: solid 1px;
+    height: 50px;
+    width: 150px;
+    float: left;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 50px;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    font-size: 22px;
+    color: black;
+    text-decoration: none;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+ul li:hover{
+    background-color: blanchedalmond;
+}
+.outerbox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#inbox1,#inbox2,#inbox3{
+    border: solid 1px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
